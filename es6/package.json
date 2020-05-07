@@ -1,0 +1,16 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  },
+  "scripts": {
+    "mod_01": "babel ./module_01/main.js -o ./module_01/bundle.js -w",
+    "cha_01": "babel ./module_01/challenge_01.js -o ./module_01/bundle_challenge.js -w"
+  }
+}
