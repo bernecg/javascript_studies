@@ -11,6 +11,7 @@
   },
   "scripts": {
     "mod_01": "babel ./module_01/main.js -o ./module_01/bundle.js -w",
-    "cha_01": "babel ./module_01/challenge_01.js -o ./module_01/bundle_challenge.js -w"
+    "cha_01": "babel ./module_01/challenge_01.js -o ./module_01/bundle_challenge.js -w",
+    "mod_02": "babel ./module_02/module_02.js -o ./module_02/bundle.js -w"
   }
 }

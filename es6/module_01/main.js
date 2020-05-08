@@ -29,7 +29,7 @@ class TodoList extends List {
 
 var MyList = new TodoList("Bernard");
 
-document.getElementById("addTodo").onclick = function() {
+document.getElementById("addTodo").onclick = function () {
     MyList.add("New TODO");
 }
 
@@ -62,29 +62,29 @@ testScope(10);
 
 /* ARRAY OPERATIONS */
 const arr = [1, 3, 5, 7, 9, 2];
-const newArr = arr.map(function(item, index) {
+const newArr = arr.map(function (item, index) {
     return item + index;
 });
 console.log(arr, newArr);
 
-const sumArr = arr.reduce(function(total, nextItem) {
+const sumArr = arr.reduce(function (total, nextItem) {
     return total + nextItem;
 })
 console.log(arr, sumArr);
 
-const filterArr = arr.filter(function(item) {
+const filterArr = arr.filter(function (item) {
     return item % 2 === 0;
 });
 console.log(filterArr);
 
-const findArr = arr.find(function(item) {
+const findArr = arr.find(function (item) {
     return item === 7;
 })
 console.log(findArr);
 
 
 /* ARROW FUNCTIONS */
-const arrFunctions = [1, 5, 512, 5234 ];
+const arrFunctions = [1, 5, 512, 5234];
 
 // const newArrFunction = arrFunctions.map((item) => {
 //     return item * 2;
@@ -130,7 +130,7 @@ const { name, ...resto } = client;
 console.log(resto);
 
 const arrRest = [1, 2, 5, 6];
-const [a, b, ...outros ] = arrRest;
+const [a, b, ...outros] = arrRest;
 console.log(a);
 console.log(b);
 console.log(outros);
@@ -144,7 +144,7 @@ console.log(multiply(3, 3, 2));
 const arrTmp1 = [1, 2, 3];
 const arrTmp2 = [4, 5, 6];
 
-const arrTmp3 = [ ...arrTmp1, ...arrTmp2 ];
+const arrTmp3 = [...arrTmp1, ...arrTmp2];
 console.log(arrTmp3);
 
 const user1 = {
