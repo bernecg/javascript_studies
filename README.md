@@ -50,3 +50,29 @@ Install with yarn:
 ```
 yarn add axios
 ```
+
+## NodeJS
+
+To initialize, enter the dir and run:
+```
+npm init -y
+```
+
+Install some dependecies:
+```
+npm install express
+npm install mongoose
+npm install mongoose-paginate
+npm install require-dir
+npm install cors
+```
+
+Express is a micro framework to deal with routes and views.
+To run the server:
+
+```
+node server.js
+```
+
+Install nodemon (`npm install -D nodemon`, `-D` is to install it as dev dependencie), so changes are auto
+loaded. Create a new script in `package.json` and run the scrip with `npm run dev`.
