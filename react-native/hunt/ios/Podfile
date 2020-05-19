@@ -79,6 +79,8 @@ target 'hunt' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
   target 'huntTests' do
     inherit! :complete
     # Pods for testing
